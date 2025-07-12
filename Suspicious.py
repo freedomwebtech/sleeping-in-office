@@ -32,7 +32,7 @@ while cap.isOpened():
         break
 
     # Save full frame image
-    pa = r'C:\Users\freed\Downloads\sleeping\images1'
+    pa = r'C:\Users\freed\Downloads\sleeping\images'
     image_path = f'{pa}\img_{i}.jpg'
     cv2.imwrite(image_path, frame)
 
