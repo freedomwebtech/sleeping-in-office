@@ -7,7 +7,7 @@ import pandas as pd
 model = YOLO("yolo11s-pose.pt")
 
 # Video path
-cap = cv2.VideoCapture('susp.mp4')
+cap = cv2.VideoCapture('sleep.mp4')
 
 # Get video properties
 frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
